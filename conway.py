@@ -1,5 +1,11 @@
+import shutil
+import sys
+
+MAP_FILE = "map.txt"
+
 def print_map():
-    print("Map goes here...")
+    with open(MAP_FILE, 'r') as file:
+            shutil.copyfileobj(file, sys.stdout)
 
 def conway():
     print("Hello, World! I'm using Python!")
