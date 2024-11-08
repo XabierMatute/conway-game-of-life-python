@@ -117,9 +117,9 @@ def conway():
         print(e)
 
 def main():
-    # para saber que todo va bien
-    print("Hello, World! I'm using Python!")
-    print_map()
+    # # para saber que todo va bien
+    # print("Hello, World! I'm using Python!")
+    # print_map()
 
     conway()
 

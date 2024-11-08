@@ -19,6 +19,7 @@ def generate_random_map(filename, size):
 
 def main():
     generate_random_map(MAP_FILE,42)
+    # generate_blank_square_map(MAP_FILE,42)
 
 if __name__ == '__main__':
     main()
