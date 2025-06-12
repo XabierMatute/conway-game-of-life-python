@@ -41,17 +41,17 @@ Working on this project helps develop the following skills:
 ## How to Use This Repository
 
 1. Clone the repository to your local machine:
-   42bash
+   ```bash
    git clone <repository-url>
-   42
+   ```
 2. Run the game using the `conway.py` script:
-   42bash
+   ```bash
    python3 conway.py
-   42
+   ```
 3. To generate a new grid, use the `generate_map.py` script:
-   42bash
+   ```bash
    python3 generate_map.py
-   42
+   ```
 
 ## Notes
 
